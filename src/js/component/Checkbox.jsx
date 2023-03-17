@@ -1,13 +1,7 @@
 import React from "react";
 import { useState } from "react";
 const Checkbox=()=>{
-const [placeholder , setPlaceholder] = useState("")
 
-const handlerClick=()=>{
-return 
-
-
-}
 
 return(
 <div>
@@ -30,9 +24,7 @@ return(
     Incluir mayúscula
   </label>
   </div>
-  <h4 onClick="">Esta es tu contraseña</h4>
-  <p>{placeholder}</p>
-
+  
 </div>
 
 )
