@@ -1,13 +1,15 @@
 import React from "react";
+ 
 import Navbar from "./Navbar.jsx";
-//include images into your bundle
-
+import Hero from "./Hero.jsx";
 //create your first component
 const Home = () => {
 	return (
-	<>
-	<Navbar/>
+		<>
+	<Navbar />
+	<Hero />
 	</>
+
 	);
 };
 
