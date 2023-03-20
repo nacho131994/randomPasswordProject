@@ -8,7 +8,6 @@ import Options from "./Options.jsx";
 const Home = () => {
 	return (
 		<>
-	<Navbar />
 	<Hero />
 	<Checkbox />
 	<Options  />
